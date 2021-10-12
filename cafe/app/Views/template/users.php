@@ -53,7 +53,7 @@
                             
                             if (session()->get('pelanggan') != null): ?>
                             <li class="nav-item"><a class="nav-link" href="<?= base_url('/')?>"><i class="fa fa-home"></i> Beranda</a></li>
-                            <li class="nav-item"><a class="nav-link" href="<?= base_url('/user/profil')?>"><i class="fa fa-user"></i> Profil</a></li>
+                            <li class="nav-item"><a class="nav-link" href="<?= base_url('/user/profil')?>"><i class="fa fa-user"></i> Profile</a></li>
                             <li class="nav-item"><a class="nav-link" href="<?= base_url('/user/pesan')?>"><i class="fa fa-cutlery"></i> Menu</a></li>
                             <li class="nav-item"><a class="nav-link" href="<?= base_url('/user/about')?>"><i class="fa fa-exclamation-circle"></i> Tentang</a></li>
                             <li class="nav-item"><a class="nav-link" href="<?= base_url('/user/kontak')?>"><i class="fa fa-phone-square"></i> Kontak</a></li>
